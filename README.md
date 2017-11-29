@@ -4,6 +4,7 @@ Assert HTTP
 Test helpers for testing a HTTP interface. This library contains two primary interfaces; a test runner which executes a set of HTTP calls as described by files in a directory, and a extension to the assert module.
 
 [![Build Status](https://travis-ci.org/mapbox/assert-http.svg)](https://travis-ci.org/mapbox/assert-http)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Filikebits%2Fassert-http.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Filikebits%2Fassert-http?ref=badge_shield)
 
 [![Build status](https://ci.appveyor.com/api/projects/status/6rnqyj048nf5k84g)](https://ci.appveyor.com/project/Mapbox/assert-http)
 
@@ -57,3 +58,7 @@ A pixel-by-pixel comparison of two image buffers using the node-mapnik `Image.co
 ### assert.response(req, res, callback)
 
 If `res.clean` is present it is expected to be a method that `json.stringify` can use to sanitize the response headers.
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Filikebits%2Fassert-http.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Filikebits%2Fassert-http?ref=badge_large)
