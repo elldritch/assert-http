@@ -12,12 +12,12 @@
   }, 
   "version": "1.1.5", 
   "dependencies": {
-    "request": "2.78.0", 
+    "request": "2.82.0", 
     "mkdirp": "0.3.x", 
     "sort-keys": "^1.1.2", 
-    "underscore": "1.4.x", 
+    "underscore": "1.12.1", 
     "assert-diff": "0.0.4", 
-    "mapnik": "3.x"
+    "mapnik": "4.5.6"
   }, 
   "scripts": {
     "test": "./node_modules/.bin/mocha -R spec"
